@@ -191,7 +191,7 @@ else
         LIBRARIES += hdf5_hl hdf5
 endif
 
-LIBRARIES += glog gflags protobuf boost_system boost_filesystem boost_regex m pthread
+LIBRARIES += glog gflags protobuf boost_system boost_filesystem boost_regex m pthread openblas
 
 # handle IO dependencies
 USE_LEVELDB ?= 1
